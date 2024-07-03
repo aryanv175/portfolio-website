@@ -1,10 +1,11 @@
 import React from 'react';
+import HeroImage from '../assets/hero.png';
 
 const Hero = () => {
   return (
       <section id="home" className="text-center py-20 bg-161513 text-white">
         <div className="flex flex-col items-center">
-          <img src="path/to/profile.png" alt="Profile" className="w-32 h-32 rounded-full mb-4" />
+          <img src={HeroImage} alt="Profile" className="w-48 h-48 rounded-full mb-12" />
           <h1 className="text-5xl font-bold marginb-40">
             I do code and make content <span className="gradient-text">about it!</span>
           </h1>
@@ -12,10 +13,10 @@ const Hero = () => {
             I am a seasoned full-stack software engineer with over 8 years of professional experience, specializing in backend development.
           </p>
           <div className="space-x-4">
-            <a href="#contact" className="bg-white text-black py-2 px-4 font-semibold border-2 border-white" style={{ borderRadius: '50px' }}>
+            <a href="#contact" className="bg-white text-black py-4 px-8 font-semibold border-2 border-white" style={{ borderRadius: '50px' }}>
               Get In Touch
             </a>
-            <a href="path/to/cv.pdf" className="bg-black text-white py-2 px-4 rounded-50 font-semibold border-2 border-white" download>
+            <a href="path/to/cv.pdf" className="bg-black text-white py-4 px-8 rounded-50 font-semibold border-2 border-white" download>
               Download CV
             </a>
           </div>
