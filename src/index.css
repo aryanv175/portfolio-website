@@ -22,3 +22,14 @@ code {
 .rounded-50 {
   border-radius: 50px;
 }
+
+.marginb-40 { 
+  margin-bottom: 40px;
+}
+
+
+@media (min-width: 768px) {
+  .nav-link {
+    margin-right: 71px;
+  }
+}

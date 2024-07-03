@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-black text-white text-center">
+    <section id="contact" className="py-20 bg-161513 text-white text-center">
       <h2 className="text-3xl font-bold mb-8">Contact</h2>
       <p className="text-xl mb-4">
         Seasonal Full Stack Software Engineer with over 8 years of hands-on experience in designing and implementing robust, scalable, and innovative web solutions.

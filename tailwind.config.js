@@ -5,7 +5,9 @@ module.exports = {
       colors: {
         'gradient-start': '#FF8660',
         'gradient-end': '#9A33FF',
-        'C5C5C5': '#C5C5C5'
+        'C5C5C5': '#C5C5C5',
+        '161513': '#161513',
+        '222222': '#222222'
       },
       maxWidth: {
         '810px': '810px',

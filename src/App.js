@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-161513 min-h-screen">
       <Header />
       <div className="max-w-810px mx-auto px-4">
         <Hero />

@@ -17,7 +17,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-black text-white">
+    <section id="projects" className="py-20 bg-161513 text-white">
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
       <div className="flex justify-center space-x-8">
         {projects.map((project, index) => (
