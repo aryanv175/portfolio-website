@@ -4,9 +4,17 @@
 
 body {
   margin: 0;
-  font-family: Poppins; 
+  font-family: Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family:Poppins;
+  font-family: Poppins;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #FF8660, #9A33FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
