@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-161513 text-white">
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
-      <div className="flex justify-center space-x-8">
+      <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
         {projects.map((project, index) => (
           <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg bg-white text-black">
             <img className="w-full" src={project.image} alt={project.title} />
