@@ -8,7 +8,7 @@ const Contact = () => {
         Seasonal Full Stack Software Engineer with over 8 years of hands-on experience in designing and implementing robust, scalable, and innovative web solutions.
       </p>
       <p className="text-xl mb-4">
-        Contact me at: <a href="mailto:email@example.com" className="text-pink-500">email@example.com</a>
+        Contact me at: <a href="mailto:jobs.aryanverma@gmail.com" className="gradient-text">jobs.aryanverma@gmail.com</a>
       </p>
       <div className="flex justify-center space-x-4 mt-8">
         <a href="https://x.com/DevWithAryan" className="text-white text-2xl"><i className="fab fa-twitter"></i></a>
