@@ -9,10 +9,12 @@ const App = () => {
   return (
     <div className="bg-black min-h-screen">
       <Header />
-      <Hero />
-      <Experience />
-      <Projects />
-      <Contact />
+      <div className="max-w-810px mx-auto px-4">
+        <Hero />
+        <Experience />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }

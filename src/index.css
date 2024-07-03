@@ -18,3 +18,7 @@ code {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.rounded-50 {
+  border-radius: 50px;
+}
