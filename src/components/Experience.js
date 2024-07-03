@@ -7,7 +7,7 @@ const experiences = [
     description: "Built an AI MERN stack tutor application for Coursera courses, increasing student learning by 50%. Developed a robust backend system using Node.js and Express, ensuring high performance and scalability for handling thousands of concurrent users."
   },
   {
-    role: "Lead at Google Developer Student Clubs",
+    role: "Lead at Google Developer Student Club",
     duration: "Aug 2023 - May 2024",
     description: "Organized meaningful workshops and collaborative info sessions with a focus on inclusivity. Hosted events focused on entrepreneurship, startups, and open-source technologies. Collaborated with a team of engineers dedicated to impacting the emerging student tech community."
   },
