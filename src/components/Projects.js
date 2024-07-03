@@ -6,13 +6,13 @@ import withScrollAnimation from './withScrollAnimation';
 const projects = [
   {
     title: "MyTrainer",
-    description: "HTML Tutorial",
+    description: "Fitness focussed IOS & Web Application.",
     link: "https://landing-page-mytrainer.vercel.app/",
     image: MyTrainer
   },
   {
     title: "TypeFlex",
-    description: "CSS Tutorial",
+    description: "Chrome extension that helps increase productivity with text replacement.",
     link: "https://github.com/aryanv175/TypeFlex",
     image: TypeFlex
   }
