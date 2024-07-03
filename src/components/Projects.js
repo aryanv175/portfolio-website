@@ -4,16 +4,16 @@ import TypeFlex from '../assets/project2.png';
 
 const projects = [
   {
-    title: "Power of HTML",
+    title: "MyTrainer",
     description: "HTML Tutorial",
     link: "https://landing-page-mytrainer.vercel.app/",
-    image: {MyTrainer}
+    image: MyTrainer
   },
   {
-    title: "Unlock CSS Magic",
+    title: "TypeFlex",
     description: "CSS Tutorial",
     link: "https://github.com/aryanv175/TypeFlex",
-    image: {TypeFlex}
+    image: TypeFlex
   }
 ];
 
