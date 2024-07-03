@@ -1,17 +1,19 @@
 import React from 'react';
+import MyTrainer from '../assets/project1.png';
+import TypeFlex from '../assets/project2.png';
 
 const projects = [
   {
     title: "Power of HTML",
     description: "HTML Tutorial",
-    link: "#",
-    image: "path/to/html-tutorial.png"
+    link: "https://landing-page-mytrainer.vercel.app/",
+    image: {MyTrainer}
   },
   {
     title: "Unlock CSS Magic",
     description: "CSS Tutorial",
-    link: "#",
-    image: "path/to/css-tutorial.png"
+    link: "https://github.com/aryanv175/TypeFlex",
+    image: {TypeFlex}
   }
 ];
 
