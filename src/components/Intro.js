@@ -1,13 +1,20 @@
 import React from 'react';
+import ReactTypingEffect from 'react-typing-effect';
 
 const Intro = () => {
   return (
     <section className="text-center py-20 bg-black text-white">
-      <h2 className="text-5xl font-bold mb-4">Hi, I'm Aryan.</h2>
+      <h2 className="text-5xl font-bold mb-4">
+        <ReactTypingEffect
+          text="Hi, I'm Aryan."
+          typingDelay={50}
+          eraseDelay={1000000} // effectively prevent erasing
+        />
+      </h2>
       <p className="text-xl mb-8">
-        A people-first Product Designer with a passion for crafting delightful experiences across screens. 
-        With a keen eye for clean design, I am dedicated to creating elegant and visually appealing user experiences 
-        that elevate complex workflows.
+        A computer science and engineering senior with a passion for solving problems by developing software. 
+        With a keen interest in technology, I am dedicated to creating powerful and useful software applications 
+        that helps otimize workflows.
       </p>
       <a href="#work" className="bg-white text-black py-2 px-4 rounded">View My Work 👇</a>
     </section>
@@ -15,3 +22,4 @@ const Intro = () => {
 }
 
 export default Intro;
+
