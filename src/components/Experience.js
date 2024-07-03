@@ -2,19 +2,19 @@ import React from 'react';
 
 const experiences = [
   {
-    role: "Lead Software Engineer at Google",
-    duration: "Nov 2018 - Present",
-    description: "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google’s core search algorithms."
+    role: "Software Engineer Intern at Studio 9+",
+    duration: "June 2024 - Present",
+    description: "Built an AI MERN stack tutor application for Coursera courses, increasing student learning by 50%. Developed a robust backend system using Node.js and Express, ensuring high performance and scalability for handling thousands of concurrent users."
   },
   {
-    role: "Junior Software Engineer at Apple",
-    duration: "Jan 2016 - Dec 2017",
-    description: "During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the architecture of mission-critical software projects."
+    role: "Lead at Google Developer Student Clubs",
+    duration: "Aug 2023 - May 2024",
+    description: "Organized meaningful workshops and collaborative info sessions with a focus on inclusivity. Hosted events focused on entrepreneurship, startups, and open-source technologies. Collaborated with a team of engineers dedicated to impacting the emerging student tech community."
   },
   {
-    role: "Software Engineer at Meta",
-    duration: "Jan 2017 - Oct 2018",
-    description: "At Meta, I served as a Software Engineer, focusing on the design and implementation of backend systems for the social media giant's dynamic platform."
+    role: "Software Engineer Intern at Fintract Global",
+    duration: "Jan 2023 - April 2023",
+    description: "Developed Django & Flask-based RESTful APIs for critical functions like bank transfers and currency conversion. Optimized existing APIs, boosting efficiency and performance. Integrated MongoDB for effective database management."
   }
 ];
 

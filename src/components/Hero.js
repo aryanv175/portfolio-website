@@ -26,10 +26,10 @@ const Hero = () => {
       <div className="flex flex-col items-center">
         <animated.img src={HeroImage} alt="Profile" className="w-48 h-48 rounded-full mb-12" style={scaleIn} />
         <animated.h1 className="text-5xl font-bold marginb-40" style={slideDown}>
-          I do code and make content <span className="gradient-text">about it!</span>
+          I write code and <span className="gradient-text">develop software!</span>
         </animated.h1>
         <animated.p className="text-xl text-C5C5C5 mb-14" style={slideDown}>
-          I am a seasoned full-stack software engineer with over 8 years of professional experience, specializing in backend development.
+          I am a budding full-stack software engineer, currently studying computer science & engineering at IIT Guwahati & UC3M, Madrid.
         </animated.p>
         <animated.div className="space-x-4" style={scaleIn}>
           <a 
@@ -40,11 +40,11 @@ const Hero = () => {
             Get In Touch
           </a>
           <a 
-            href="path/to/cv.pdf" 
-            className="bg-161513 text-white py-4 px-8 rounded-50 font-semibold border-2 border-white hover:bg-white hover:text-161513 transition-colors duration-300" 
-            download
+            href="https://drive.google.com/drive/folders/13OG1LzYH0Kki2vJ2LqK5LVIPVnj1YYV-?usp=sharing" 
+            className="bg-161513 text-white py-4 px-12 rounded-50 font-semibold border-2 border-white hover:bg-white hover:text-161513 transition-colors duration-300" 
+            
           >
-            Download CV
+            View CV
           </a>
         </animated.div>
       </div>
