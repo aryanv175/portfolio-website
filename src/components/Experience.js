@@ -1,4 +1,5 @@
 import React from 'react';
+import withScrollAnimation from './withScrollAnimation';
 
 const experiences = [
   {
@@ -35,6 +36,6 @@ const Experience = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Experience;
+export default withScrollAnimation(Experience, 'fade-in-up');

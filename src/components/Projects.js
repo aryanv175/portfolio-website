@@ -1,6 +1,7 @@
 import React from 'react';
 import MyTrainer from '../assets/project1.png';
 import TypeFlex from '../assets/project2.png';
+import withScrollAnimation from './withScrollAnimation';
 
 const projects = [
   {
@@ -37,6 +38,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Projects;
+export default withScrollAnimation(Projects, 'fade-in-up');

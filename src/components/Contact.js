@@ -1,4 +1,5 @@
 import React from 'react';
+import withScrollAnimation from './withScrollAnimation';
 
 const Contact = () => {
   return (
@@ -17,6 +18,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Contact;
+export default withScrollAnimation(Contact, 'fade-in-up');
