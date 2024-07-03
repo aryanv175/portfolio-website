@@ -34,14 +34,14 @@ const Hero = () => {
         <animated.div className="space-x-4" style={scaleIn}>
           <a 
             href="#contact" 
-            className="bg-white text-black py-4 px-8 font-semibold border-2 border-white hover:bg-black hover:text-white transition-colors duration-300" 
+            className="bg-white text-black py-4 px-8 font-semibold border-2 border-white hover:bg-161513 hover:text-white transition-colors duration-300" 
             style={{ borderRadius: '50px' }}
           >
             Get In Touch
           </a>
           <a 
             href="path/to/cv.pdf" 
-            className="bg-161513 text-white py-4 px-8 rounded-50 font-semibold border-2 border-white hover:bg-white hover:text-black transition-colors duration-300" 
+            className="bg-161513 text-white py-4 px-8 rounded-50 font-semibold border-2 border-white hover:bg-white hover:text-161513 transition-colors duration-300" 
             download
           >
             Download CV
